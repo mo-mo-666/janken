@@ -193,7 +193,7 @@ class Janken(ttk.Frame):
         self.app2 =  OptionWindow()
 
     def reset(self):
-        '''全ての結果，パラメータをリセット'''
+        """全ての結果，パラメータをリセット"""
         global param_insance
         param_instance.reset_params()
         param_instance.reset_results()
